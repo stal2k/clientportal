@@ -10,6 +10,7 @@
 
             // Core
             'app.core',
+			'app.pages.auth.login',
 
             // Navigation
             'app.navigation',

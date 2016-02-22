@@ -1,8 +1,9 @@
-node_modules/
-bower_components/
+/node_modules/*
+/bower_components/*
 *.log
 
-build/
-dist/
-gulp/
+/build/
+/dist/
+/gulp/*
 e2e/
+/.tmp/

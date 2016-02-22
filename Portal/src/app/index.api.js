@@ -190,9 +190,9 @@
             analytics: $resource(api.baseUrl + 'dashboard/analytics/data.json')
         };
 		
-		// api.pspeedjobs = {
-        //    pspeedjobs  : $resource(api.baseUrl + 'pspeedjobs/pspeedjobs.json')
-        // };
+		api.pspeedjobs = {
+            pspeedjobs  : $resource(api.baseUrl + 'pspeedjobs/pspeedjobs.json')
+        };
 		
 		api.scrumboard = {
             boardList: $resource(api.baseUrl + 'scrumboard/boardList.json'),

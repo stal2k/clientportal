@@ -16,15 +16,15 @@
                 views  : {
                     'content@app': {
                         templateUrl: 'app/main/home/home.html',
-                        controller : 'HomeController as vm'
+                        // controller : 'HomeController as vm'
                     }
                 },
-                resolve: {
+                /* resolve: {
                     HomeData: function (apiResolver)
                     {
                         return apiResolver.resolve('home@get');
                     }
-                }
+                } */
             });
 
         // Translation
