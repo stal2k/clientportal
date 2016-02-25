@@ -4,9 +4,8 @@
 
     angular
         .module('app.pages.auth.login', [])
-        .config(config)
-		.service('AuthService', AuthService);
-		
+        .config(config);
+
     /** @ngInject */
     function config($stateProvider, $translatePartialLoaderProvider, msNavigationServiceProvider)
     {
@@ -26,30 +25,6 @@
             bodyClass: 'login'
         });
 
-		// Login Service WIP
-		
-	AuthService:
-	{
-    loggedIn: false,
-    checkStatus: function ()
-    {
-        /* Check user's login status from API server */
-    },
-
-    login: function ()
-    {
-        /* Do the login */
-        // If login success
-        this.loggedIn = true
-    },
-
-    logout: function ()
-    {
-        /* Do the logout */
-        // If logout success
-        this.loggedIn = false
-    }
-	}
         // Translation
         $translatePartialLoaderProvider.addPart('app/main/pages/auth/login');
 

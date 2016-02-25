@@ -5,7 +5,6 @@
     angular
         .module('360iCP')
         .run(runBlock);
-		
 
     /** @ngInject */
     function runBlock($rootScope, $timeout, $state)
@@ -27,14 +26,12 @@
 
         // Store state in the root scope for easy access
         $rootScope.state = $state;
-		
-		// Cleanup
+
+        // Cleanup
         $rootScope.$on('$destroy', function ()
         {
             stateChangeStartEvent();
             stateChangeSuccessEvent();
-        })
+        });
     }
-	
-	
 })();

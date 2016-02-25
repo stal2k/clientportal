@@ -12,7 +12,7 @@
             'app.core',
 			
 			//login
-			'app.login',
+			// 'app.login',
 
             // Navigation
             'app.navigation',
@@ -25,16 +25,16 @@
 
             // 360i Home
             'app.datorama',
-			'app.home',
+			// 'app.home',
 			'app.seopulse',
 			
 			// Apps
-            'app.dashboards',
+            // 'app.dashboards',
             'app.calendar',
             'app.file-manager',
             'app.scrumboard',
 			'app.gantt-chart',
-			// 'app.scrumex',
+            // 'app.scrumex',
             
             // Tools
             'app.tools',

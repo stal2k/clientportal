@@ -4,7 +4,7 @@
 
     angular
         .module('app.calendar', [
-            'ui.calendar'
+            'app.calendar'
         ])
         .config(config);
 
@@ -27,6 +27,13 @@
         $translatePartialLoaderProvider.addPart('app/main/apps/calendar');
 
         // Navigation
+        
+        msNavigationServiceProvider.saveItem('apps', {
+            title : 'Project Management',
+            group : true,
+            weight: 1
+        }); 
+
         msNavigationServiceProvider.saveItem('apps.calendar', {
             title : 'Calendar',
             icon  : 'icon-calendar-today',

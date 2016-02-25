@@ -25,7 +25,7 @@
        
         // Navigation
         msNavigationServiceProvider.saveItem('360iCP', {
-            title : 'MAIN MENU',
+            title : 'CLIENT DASHBOARDS',
             group : true,
             weight: 1
         });

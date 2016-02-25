@@ -10,11 +10,9 @@
     function LoginController()
     {
         // Data
-		
 
-	}
         // Methods
 
         //////////
-    
+    }
 })();

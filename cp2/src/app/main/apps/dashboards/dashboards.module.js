@@ -14,12 +14,13 @@
     /** @ngInject */
     function config(msNavigationServiceProvider)
     {
+        
         // Navigation
         msNavigationServiceProvider.saveItem('apps', {
             title : 'Project Management',
             group : true,
             weight: 1
-        });
+        }); 
 
         msNavigationServiceProvider.saveItem('apps.dashboards', {
             title : 'Dashboards',
